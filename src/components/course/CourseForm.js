@@ -1,5 +1,5 @@
 import React from 'react';
-import TextInput from '../common/TextInput'
+import TextInput from '../common/TextInput';
 import SelectInput from '../common/SelectInput';
 
 const CourseForm = ({course, allAuthors, onSave, onChange, loading, errors}) => {
@@ -51,6 +51,6 @@ CourseForm.propTypes = {
 	onChange: React.PropTypes.func.isRequired,
 	loading: React.PropTypes.bool,
 	errors: React.PropTypes.object
-}
+};
 
 export default CourseForm;
